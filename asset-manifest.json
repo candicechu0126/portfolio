@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/candicechu0126/portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/candicechu0126/portfolio/static/js/main.fd55c9c0.js",
+    "main.css": "/candicechu0126/portfolio/static/css/main.59c1dc16.css",
+    "main.js": "/candicechu0126/portfolio/static/js/main.801a9f0e.js",
     "static/js/787.1ed0c42c.chunk.js": "/candicechu0126/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/candicechu0126/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/candiceImg.jpg": "/candicechu0126/portfolio/static/media/candiceImg.ff65935f7c5cff7245ac.jpg",
+    "static/media/codeEditor.png": "/candicechu0126/portfolio/static/media/codeEditor.ba9458794dca1c746ef2.png",
+    "static/media/candiceCHU_CV.pdf": "/candicechu0126/portfolio/static/media/candiceCHU_CV.871fdf916d2c22d7f8e9.pdf",
+    "static/media/blog.png": "/candicechu0126/portfolio/static/media/blog.52102140f369ea233010.png",
+    "static/media/chatify.png": "/candicechu0126/portfolio/static/media/chatify.9373eddae1a258056c35.png",
+    "static/media/leaf.png": "/candicechu0126/portfolio/static/media/leaf.4c15d6eb3fc75cfef85b.png",
+    "static/media/about.png": "/candicechu0126/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/suicide.png": "/candicechu0126/portfolio/static/media/suicide.b72f1f9ffeb4775a7803.png",
+    "static/media/home-bg.jpg": "/candicechu0126/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/logo.svg": "/candicechu0126/portfolio/static/media/logo.c829d64f1f10afea06f2b2d58b324bc0.svg",
+    "static/media/emotion.jpeg": "/candicechu0126/portfolio/static/media/emotion.e92e314a236f65bb89af.jpeg",
+    "static/media/avatar.svg": "/candicechu0126/portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/pre.svg": "/candicechu0126/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/candicechu0126/portfolio/index.html",
-    "main.073c9b0a.css.map": "/candicechu0126/portfolio/static/css/main.073c9b0a.css.map",
-    "main.fd55c9c0.js.map": "/candicechu0126/portfolio/static/js/main.fd55c9c0.js.map",
+    "main.59c1dc16.css.map": "/candicechu0126/portfolio/static/css/main.59c1dc16.css.map",
+    "main.801a9f0e.js.map": "/candicechu0126/portfolio/static/js/main.801a9f0e.js.map",
     "787.1ed0c42c.chunk.js.map": "/candicechu0126/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.fd55c9c0.js"
+    "static/css/main.59c1dc16.css",
+    "static/js/main.801a9f0e.js"
   ]
 }
