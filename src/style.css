@@ -356,6 +356,15 @@ button:focus {
   padding-inline-start: 0 !important;
 }
 
+.home-contact {
+  padding: 20px 20px 0 20px;
+}
+
+.home-contact-info {
+  display: inline-block !important;
+  padding: 0 50px 0 50px;
+}
+
 .home-social-icons {
   position: relative !important;
   display: inline-block !important;

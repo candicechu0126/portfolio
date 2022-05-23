@@ -56,10 +56,29 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            <h1>
+              <span className="purple">Connect </span>with me
+            </h1>
+            <ul className="home-contact">
+              <li className="home-contact-info">
+                <p>
+                  <h10 style={{ color: "#6c757d" }}>Location</h10>
+                  {"\t"}Hong Kong
+                </p>
+              </li>
+              <li className="home-contact-info">
+                <p>
+                  <h10 style={{ color: "#6c757d" }}>Phone Number</h10>
+                  {"\t"}(852) 549-77921
+                </p>
+              </li>
+              <li className="home-contact-info">
+                <p>
+                  <h10 style={{ color: "#6c757d" }}>Email Address</h10>
+                  {"\t"}candicechu126@gmail.com
+                </p>
+              </li>
+            </ul>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
