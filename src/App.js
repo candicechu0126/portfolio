@@ -1,5 +1,3 @@
-//  <img src={logo} className="App-logo" alt="logo" />
-
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
@@ -18,7 +16,6 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "./logo.svg";
 
 function App() {
   const [load, upadateLoad] = useState(true);
