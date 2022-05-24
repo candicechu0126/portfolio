@@ -5,7 +5,7 @@ function Otherstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={2} md={2} className="tech-icons">
-        <div className="text">STM32 Board</div>
+        <div className="text">Tinkercad</div>
       </Col>
       <Col xs={2} md={2} className="tech-icons">
         <div className="text">Arduino</div>
