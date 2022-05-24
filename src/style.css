@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #7a87ff;
 }
 
 .purple {
@@ -62,13 +62,13 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: #7a87ff;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: #7a87ff;
   border-radius: 12px;
 }
 
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #7a87ff !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #7a87ff;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -258,6 +258,7 @@ button:focus {
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-size: 100%;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -273,22 +274,21 @@ button:focus {
   text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #5ef4c2 0%,
-    #462352 29%,
-    #edb7e2 67%,
-    #ffffff 100%
+    #9381ff 0%,
+    #ff8578 29%,
+    #ffd8be 67%,
+    #f8f7ff 100%
   );
-  background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-emphasis-color: transparent;
+  /* text-emphasis-color: transparent; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 30px;
+  font-size: 30px !important;
 }
 
 @keyframes textclip {
@@ -308,7 +308,7 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #7a87ff;
 }
 
 .myAvtar {
@@ -386,7 +386,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #7a87ff;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -394,13 +394,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #7a87ff;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #7a87ff;
+  box-shadow: 0 0 20px #7a87ff;
+  text-shadow: 0 0 10px #7a87ff;
 }
 
 .social-icons {
@@ -410,7 +410,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #7a87ff !important;
 }
 
 /* --------- */
@@ -453,7 +453,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #7a87ff !important;
 }
 /* --------- */
 /* Projects */
@@ -474,7 +474,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px #7a87ff !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -484,7 +484,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px #7a87ff !important;
 }
 
 .blog-card {
@@ -524,6 +524,10 @@ button:focus {
   border-radius: 10px !important;
 }
 
+.card-about-img {
+  border-radius: 10rem 20rem 5rem 18rem !important;
+}
+
 .blog-img {
   padding: 0px !important;
   opacity: 0.8 !important;
@@ -532,14 +536,14 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background-color: #a0afff !important;
+  border-color: #a0afff !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #7a87ff !important;
+  border-color: #7a87ff !important;
 }
 .btn:focus {
   outline: none !important;
@@ -569,12 +573,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid #a0afff !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px #1b1c26 !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -588,7 +592,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid #7a87ff !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -611,6 +615,26 @@ button:focus {
   .about-img {
     padding-top: 0 !important;
   }
+}
+
+.text {
+  font-size: 15px;
+}
+
+.scroller {
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+  scrollbar-width: none;
+  -ms-overflow-style: initial;
+}
+
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scroller {
+  width: 1px;
 }
 /* --------- */
 /* Resume */
@@ -659,7 +683,7 @@ button:focus {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #8a49a8;
+  border-left: 2px solid #a0afff;
   position: relative;
 }
 
@@ -696,7 +720,7 @@ button:focus {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #8a49a8;
+  border: 2px solid #a0afff;
 }
 
 .like-item {
@@ -741,7 +765,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #7a87ff !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -749,8 +773,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #a0afff !important;
+  border-color: #a0afff !important;
 }
 .fork-btn-inner::after {
   display: none !important;

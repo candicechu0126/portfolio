@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { AiFillHeart } from "react-icons/ai";
 
 function AboutCard() {
   return (
@@ -8,30 +8,42 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            Hi Everyone, I am <span className="purple">Candice CHU </span>
+            from <span className="purple"> Hong Kong.</span>
+            <br />I am a final year bachelor’s degree student in Electronic
+            Engineering at the Hong Kong University of Science and Technology
+            and will grate in this summer. Through my professional training and
+            studies, I have acquired knowledge and programming skills in
+            application or website design. During my studies, I completed
+            project and presentation on the smart shuttle bus and smart garbage,
+            which provided me with hands-on experience designing IOT-related
+            hardware and software combination technologies. This strengthened my
+            high-level analytical thinking and organizational skills
+            Additionally, my experience working as a web/mobile application
+            quality analyst has taught me how to effectively communicate product
+            concepts and techniques, and even how to test products and search
+            the solutions for the problems.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <AiFillHeart /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <AiFillHeart /> Search Cuisine
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <AiFillHeart /> Travelling
+            </li>
+            <li className="about-activity">
+              <AiFillHeart /> Coffee Lover
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <p style={{ color: "#a0afff" }}>"Try to believe in yourself!" </p>
+          <footer className="blockquote-footer">Candice CHU</footer>
         </blockquote>
       </Card.Body>
     </Card>
