@@ -22,7 +22,7 @@ jobs:
         run: npm install && npm run build
 
       - name: Deploy
-        uses: candicechu0126/portfolio@v4
+        uses: candicechu0126/portfolio
         with:
           folder: build
           branch: gh-pages
