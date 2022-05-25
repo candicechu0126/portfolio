@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import stm32Board from "../../Assets/Hardware/stm32Board.png";
 import arduinoBoard from "../../Assets/Hardware/arduino.png";
 import axis3 from "../../Assets/Hardware/3-Axis.png";
