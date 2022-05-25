@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import candiceImg from "../../Assets/candiceImg.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
+import IndustryExp from "./IndustryExp";
 
 function Home() {
   return (
@@ -44,6 +45,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <IndustryExp />
       <Home2 />
     </section>
   );
